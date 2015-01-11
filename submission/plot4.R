@@ -1,3 +1,5 @@
+## Author: Joe Carli
+## Exploratory Data Analysis Course Project 1
 cc <- c(rep("character",2),rep("numeric",7))
 df <- read.csv("household_power_consumption.txt",
                sep=";",
