@@ -12,4 +12,4 @@ png(file="plot2.png", bg="transparent")
 with(mydf, {
     plot(DateTime,Global_active_power,type="n",main="",xlab="",ylab="Global Active Power (kilowatts)")
     lines(DateTime,Global_active_power)
-    })
+})
